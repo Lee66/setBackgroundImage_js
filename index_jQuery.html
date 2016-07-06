@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    
+</head>
+<body>
+</body>
+<script src="lib/jquery-1.9.1.min.js"></script>
+<script src="lib/setBackgroundImage_jQuery.js"></script>
+<script>
+    var option = {
+        imgArr: ["http://z.k1982.com/show_img/201303/2013033012383895.jpg","http://www.0739i.com.cn/data/attachment/portal/201603/16/225745u03eksm3hj48jj8a.jpg"],        //图片数组
+        imgSecond: 1000,  //图片淡出的时间
+        isRandom:true    //是否为随机图片
+    }
+    $(function(){
+        $.setBackgroundImage(option);
+    });
+</script>
+</html>
